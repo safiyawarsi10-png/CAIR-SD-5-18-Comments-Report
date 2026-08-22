@@ -1,0 +1,15 @@
+# CLI configuration for the CAIR YouTube comment collection tool.
+
+youtube_api_key_env: YOUTUBE_API_KEY
+anthropic_api_key_env: ANTHROPIC_API_KEY
+
+db_path: data/comments.db
+rubric_path: rubric/rubric_v0.2.md
+model: claude-haiku-4-5-20251001
+rubric_version: v0.2
+per_video_comment_cap: 0
+collect_all_replies: false
+comment_order: time
+daily_quota_limit: 9500
+output_dir: output
+sample_method: hand_curated_url_list

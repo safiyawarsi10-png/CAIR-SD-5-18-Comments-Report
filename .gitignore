@@ -1,0 +1,20 @@
+# Secrets — never commit
+.env
+
+# Collected data and exports (contain real comment text and author identifiers)
+data/
+output/
+videos_map.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
